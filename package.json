@@ -1,0 +1,46 @@
+{
+  "name": "ai-spec",
+  "version": "0.1.0",
+  "description": "Reference file for ai pre-prompting",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaljuk/ai-spec.git"
+  },
+  "keywords": [
+    "ai",
+    "spec",
+    "requirements",
+    "chatgpt"
+  ],
+  "author": "ErikK",
+  "scripts": {
+    "build": "tsc",
+    "_dev": "nodemon -w 'src/**/*' -e ts,json,yaml --exec 'NODE_OPTIONS=--require=esm ts-node' src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "find-up": "^6.3.0",
+    "fs-extra": "^11.1.1",
+    "js-yaml": "^4.1.0"
+  },
+  "homepage": "https://github.com/Kaljuk/ai-spec#readme",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/fs-extra": "^11.0.1",
+    "@types/jest": "^29.5.0",
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^18.15.10",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.2"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaljuk/ai-spec/issues"
+  }
+}

@@ -1,0 +1,14 @@
+
+node_modules
+dist
+.DS_Store
+
+# Logs
+*-error.log
+*-debug.log
+*-info.log
+*-warn.log
+*-trace.log
+*.log
+*.log.*
+

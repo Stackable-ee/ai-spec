@@ -1,6 +1,7 @@
 {
-  "name": "ai-spec",
+  "name": "@stackable-ee/ai-spec",
   "version": "0.1.0",
+  "type": "module",
   "description": "Reference file for ai pre-prompting",
   "main": "index.js",
   "repository": {
@@ -13,7 +14,7 @@
     "requirements",
     "chatgpt"
   ],
-  "author": "ErikK",
+  "author": "Erik Kaljumae",
   "scripts": {
     "build": "tsc",
     "_dev": "nodemon -w 'src/**/*' -e ts,json,yaml --exec 'NODE_OPTIONS=--require=esm ts-node' src/index.ts",

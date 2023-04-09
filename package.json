@@ -1,5 +1,5 @@
 {
-  "name": "@stackable-ee/ai-spec",
+  "name": "ai-spec",
   "version": "0.1.0",
   "type": "module",
   "description": "Reference file for ai pre-prompting",
